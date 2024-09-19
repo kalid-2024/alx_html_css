@@ -18,3 +18,11 @@ aside {
     flex: 1 ;
     overflow-y: auto;
 }
+
+body.works_on_smartphone {
+    display: block;
+}
+
+body.works_on_smartphone main {
+    display: block;
+}
