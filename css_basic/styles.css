@@ -23,3 +23,19 @@ body.works_on_smartphone {
     display: block;
 }
 
+body   {
+    color:white;
+    background-color: rgb(167, 39, 39);
+    
+}
+
+article {
+    background-color: rgb(44, 50, 77);
+    color: chartreuse;   
+}
+
+footer {
+    color:aliceblue;
+}
+
+
