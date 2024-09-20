@@ -1,6 +1,8 @@
 body {
     display:flex;
     flex-direction:column;
+    color:white;
+    background-color: rgb(167, 39, 39);
 }
 
 main {
@@ -12,6 +14,9 @@ main {
 article {
     flex: 2 ;
     overflow-y: auto;
+    background-color: rgb(44, 50, 77);
+    color: chartreuse;   
+    
 }
 
 aside {
@@ -23,19 +28,8 @@ body.works_on_smartphone {
     display: block;
 }
 
-body   {
-    color:white;
-    background-color: rgb(167, 39, 39);
-    
-}
-
-article {
-    background-color: rgb(44, 50, 77);
-    color: chartreuse;   
-}
 
 footer {
     color:aliceblue;
 }
-
 
