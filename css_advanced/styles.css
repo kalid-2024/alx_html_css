@@ -1,0 +1,140 @@
+header{
+   width:100%;
+} 
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+   margin: 20px 60px;
+}
+
+.logo{
+    height: 50%;
+    margin-left:70px;
+    margin-right: auto;
+}
+
+ul  {
+    display: flex;
+    justify-content:space-around;
+    margin-right:60px;
+}
+
+.links a{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;  
+    font-size: small; 
+    margin: 30px; 
+ } 
+
+  .background {
+    background:url(/css_advanced/Images/background.png);
+    width: 1440px;
+    height: 1093px;
+ }
+
+ .first{
+    color:white;
+ }
+
+ .container1{
+    display: flex;
+    flex-direction: column; 
+
+    margin-left:1%;
+    margin-top:12%; 
+    align-items: center;
+    
+ }
+ .heading1 h1{
+    font:Source Sans Pro;
+    font-weight: bold;
+    font-size:120px;
+    display: flex;
+    justify-content: left;
+    align-items: top;
+    margin:5px;
+    text-align: center;
+ }
+
+
+ .span {
+    font-family: sans-serif;
+    margin: 40px;
+    display: flex;
+    justify-content: top;
+    margin:5px;
+    padding:10px;
+ }
+
+ .span span{
+   margin:20px;
+   font-weight: bold;
+   font-size: 16px;
+ }
+
+  button{
+    color:white;
+    padding: 15px 10px;
+    background-color:#C271FF;
+    border-radius: 22px;
+    border:none;
+    width:162px;
+    height:44px;
+    display: flex;
+    margin:5px;
+    justify-content: center;
+   
+ }
+
+ .container2{
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top:8%;
+   margin-right: 60px;
+   margin-left: 30px;
+
+ }
+
+ .container2 h2{
+   width:261px;
+   height:40px;
+   font-size: 32px;
+   width:261px;
+   height:40px;
+   margin-bottom: 5%;
+   margin-top: 2%;
+ }
+
+ h2 span{
+   color: #C271FF;
+ }
+ .subcontainer{
+   width:1009px;
+   height:237px;
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   margin-top:15px;
+ }
+
+ .subcontainer div{
+   width:150px;
+   height:237px;
+   margin:50px;
+   padding: 2px 5px;
+   text-align: center;
+ }
+
+ 
+
+
+
+
+ 
+
