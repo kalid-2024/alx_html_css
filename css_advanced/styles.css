@@ -2,6 +2,15 @@ header{
    width:100%;
 } 
 
+@font-face{
+  font-family: SourceSancePro;
+  src:url("/css_basic/css_advanced/Fonts") format("opentype");
+}
+
+html {
+  font-family: SourceSancePro;
+}
+
 nav{
     display: flex;
     align-items: center;
@@ -11,22 +20,21 @@ nav{
 
 .logo{
     height: 50%;
-    margin-left:70px;
+    margin-left:65px;
     margin-right: auto;
 }
 
 ul  {
     display: flex;
     justify-content:space-around;
-    margin-right:60px;
+    
 }
 
 .links a{
     color: white;
-    font-family: sans-serif;
+    font-size: 12px;
     font-weight: bold;
     text-decoration: none;  
-    font-size: small; 
     margin: 30px; 
  } 
 
@@ -62,6 +70,8 @@ ul  {
 
 
  .span {
+   font-size: 16px;
+   font-weight: bold;
     font-family: sans-serif;
     margin: 40px;
     display: flex;
@@ -76,17 +86,20 @@ ul  {
    font-size: 16px;
  }
 
-  button{
+  .button button{
+    font-size: 12px;
+    text-align: center;
     color:white;
-    padding: 15px 10px;
+    padding: 16px 11px;
     background-color:#C271FF;
     border-radius: 22px;
     border:none;
     width:162px;
     height:44px;
-    display: flex;
     margin:5px;
+    margin-right: 8px;
     justify-content: center;
+    align-items: center;
    
  }
 
@@ -105,10 +118,10 @@ ul  {
    width:261px;
    height:40px;
    font-size: 32px;
-   width:261px;
-   height:40px;
    margin-bottom: 5%;
    margin-top: 2%;
+   justify-content: center;
+   align-items: center;
  }
 
  h2 span{
@@ -131,8 +144,38 @@ ul  {
    text-align: center;
  }
 
- 
+ .second-section{
+   width: 1440px;
+   height: 392px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #C271FF;
+ }
 
+ .image-blockquote{
+   width:160px;
+   height:160px;
+   margin-right: 30px;
+ }
+
+ .blockquote{
+   color:#FFFFFF;
+   font-size: 22px;
+   width:730px;
+   height:158px;
+   text-align:justify;
+   margin-left:30px ;
+ }
+
+ .blockquote h3{
+  font-weight: bold;
+  margin-top: 30px;
+ }
+
+ .blockquote p{
+  font-style: italic;
+ }
 
 
 
