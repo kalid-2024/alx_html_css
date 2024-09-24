@@ -2,16 +2,6 @@ header{
    width:100%;
 } 
 
-@font-face{
-  font-family: SourceSancePro;
-  src:url(/css_basic/css_advanced/Fonts/SourceSansPro-Regular.OTF) format(opentype);
-  src:url(https://www.fontsquirrel.com/fonts/source-sans-pro) format(opentype);
-}
-
-html {
-  font-family: SourceSancePro;
-}
-
 nav{
     display: flex;
     align-items: center;
@@ -40,13 +30,9 @@ ul  {
  } 
 
   .background {
-    background:url(/css_advanced/Images/background.png);
+    background:url(/Images/background.png);
     width: 1440px;
     height: 1093px;
- }
-
- .first{
-    color:white;
  }
 
  .container1{
@@ -59,6 +45,7 @@ ul  {
     
  }
  .heading1 h1{
+  color:white;
     font:Source Sans Pro;
     font-weight: bold;
     font-size:120px;
@@ -82,6 +69,7 @@ ul  {
  }
 
  .span span{
+  color:white;
    margin:20px;
    font-weight: bold;
    font-size: 16px;
@@ -116,11 +104,12 @@ ul  {
  }
 
  .container2 h2{
+  color:white;
    width:261px;
    height:40px;
    font-size: 32px;
-   margin-bottom: 5%;
-   margin-top: 2%;
+   margin-bottom: 3%;
+   margin-top: 1%;
    justify-content: center;
    align-items: center;
  }
@@ -134,7 +123,7 @@ ul  {
    display: flex;
    justify-content: center;
    align-items:center;
-   margin-top:15px;
+   margin-top:1%;
  }
 
  .subcontainer div{
@@ -144,6 +133,27 @@ ul  {
    padding: 2px 5px;
    text-align: center;
  }
+
+ .boxlist h3 {
+  padding-top:15x;
+  color:white;
+}
+
+.boxlist p {
+  padding-top:15x;
+  color:white;
+  font-style: italic;
+  font-size: 16px;
+}
+
+
+.boxlist h3{
+  color:white;
+  font-weight: bold;
+  margin-left: -9px;
+  
+}
+
 /* blockquote sectioin */
  .second-section{
    width: 1440px;
@@ -166,12 +176,17 @@ ul  {
    width:730px;
    height:158px;
    text-align:justify;
-   margin-left:30px ;
+   /* margin-left:30px ; */
  }
 
  .blockquote h3{
+  color: white;
+  font-size: 22px;
   font-weight: bold;
-  margin-top: 30px;
+  margin-top: 40px;
+  padding:7px;
+  margin-bottom: 10px;
+  margin-left: 3px;
  }
 
  .blockquote p{
@@ -180,8 +195,8 @@ ul  {
 
  /* Tutorials Section */
 .third-section{
-  width: 1228px;
-  height: 450px;
+  width: 1440px;
+  height: 624px;
 }
 
  .third-section h2{
@@ -205,12 +220,16 @@ ul  {
   font-weight: bold;
   margin-top: 10px;
   margin-bottom: 10px;
+  padding:2px;
 }
 
-.third-section p{
+.third-section .d , .third-section .h , .third-section .n , .third-section .s  {
   font-weight:lighter;
   color: rgb(7,22,41,50.16%);
   font-size: 14px;
+  text-align: left;
+  width:242px;
+  height: 28px;
 }
 
 .rating p{
@@ -227,13 +246,15 @@ ul  {
 
 }
 
-.rating div i {
+
+
+/* .rating div i {
   color: #C271FF; 
 }
 
 .rating div:nth-child(5) i {
   color: #979797; 
-}
+} */
 
 .diagonal-smile{
   margin-top:80px ;
@@ -321,10 +342,14 @@ ul  {
   width: 130px;
   height: 30px;
   align-items: center;
-  margin-top:10px ;
-  margin-bottom:10px ;
+  margin-top:15px ;
+  margin-bottom:15px ;
   
+}
 
+.owner h4 {
+  width:86px;
+  height: 27px;
 }
 
 .owner img{
@@ -334,13 +359,19 @@ ul  {
 }
 .rating{
   display: flex;
+  align-items: center;
+}
+
+.rating p {
+  margin-right: 20%;
 }
 
 .videos-container{
   display: flex;
-  justify-content:space-between;
+  justify-content:space-around;
   align-items:center;
-  margin-left:50px;
+  margin-left:100px;
+  margin-top: 8px;
 }
 
 .heading-container{
@@ -350,8 +381,13 @@ ul  {
   justify-content: center;
   align-items: flex-start;
   margin-left: 40%;
+  margin-top: 100px;
+  margin-bottom: 8px;
  }
-
+ .third-section .stars{
+  width:107px;
+  height:15px ;
+}
  
 /* membership section */
 
@@ -420,7 +456,7 @@ ul  {
 
 .fifth-section{
   width:1440px ;
-  height:400px ;
+  height:900px ;
 }
 
 .fifth-section h2{
@@ -442,41 +478,41 @@ ul  {
 
 .firstrow {
   display: flex;
-  padding-top:30px;
-  margin-top: 30px;
+  padding-top:5px;
+  margin-top: 15px;
  }
 
  .secondrow{
   display: flex;
-  padding-top:30px;
-  margin-top:30px;
+  padding-top:5px;
+  margin-top:15px;
  }
 
 div .paragraph{
   padding:10px;
-  margin:30px ;
+  margin:50px ;
   width: 350px;
   height: 192px;
   color:rgb(7,22,41,50.16%);
   font-size: 14px;
 }
 
-div h3{
-  padding:10px;
-  margin:30px ;
+/* .first_box h3 , .second_box h3 , .third_box h3 , .fourth_box h3 {
+  padding:2px;
+  margin:5px ;
   width: 145px;
   height: 20px;
   color:#071629;
   font-weight: bold;
   font-size: 16px;
-}
+} */
+
 
 
 
 /* footer section */
 
 .final{
-
   width: 1440px;
   height: 249px;
   background-color: #071629;
@@ -485,29 +521,31 @@ div h3{
 
 .innerbox{
   display: flex;
-  justify-content: space-between;
-  margin-top: 50%;
+  justify-content:space-between ;
+  align-items: center;
+
 }
 
-.innerbox img{
+.innerbox .footerlogo{
   height:20%;
-  margin-left:10%;
+  margin-left:11%;
   padding-top: 100px;
 }
 
 .final-item p{
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  padding:10px;
-  margin-bottom: 10%;
+  margin-left:43%;
   color:#979797;
+  margin-top:5%;
+  
   
 }
 
-.iconbox {
+ .social-icon-logo {
   height: 20%;
-  margin-right:20%;
+  margin-right:16%;
   padding-top:100px;
-  
 }
+
+/* div.final-item {
+  width:60px;
+} */
