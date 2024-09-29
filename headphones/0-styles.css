@@ -116,6 +116,108 @@ button:hover {
     opacity: 0.9;
 }
 
+
+
+@media only screen and (max-width:480px) {
+
+    .first-background {
+        background-position: center center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo {
+        display: block;
+        justify-content: center;
+        margin-left: 50%;
+    }
+    .outer-box {
+        width: 357px;
+        height: 436px;
+        position: absolute;
+        left: 9px;
+        top: 327px;
+        align-content: center;
+        justify-content: center;
+        margin-left: 40px;  
+        margin-top: 30px;
+    } 
+
+    .top-box {
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .heading-box h2 {
+       text-align: center;
+       margin-bottom: 5px;
+    }
+    
+    .p-box p {
+        margin-top: 5px;
+        width: 279px;
+        height: 40px;
+       text-align:center;
+    } 
+    .button-box button {
+        width:162px;
+        height: 44px;
+        margin-top: 5px;
+    }
+   .bottom-box p {
+    margin-right: 60px;
+   }
+    
+}
+
+
+/* Tablet Styles 768x800 */
+/* Navigation  */
+@media only screen and (max-width: 768px) {
+    .first-background {
+        background-position:left;
+     }
+    .logo-container {
+        display: none;
+    }
+    .nav-links {
+        display: none;
+    }
+
+    /* leading section */
+    .outer-box {
+        position: absolute;
+        left: 67px;
+        top:372px;
+        align-items: center;
+    }
+    .first-background {
+        width: 768px;
+        height: 800px;
+        background-position: center center;
+    }
+
+    .heading-box {
+        margin-left: 200px;
+        align-items: center;
+        text-align: center; 
+    }
+    .p-box {
+        margin-left: 200px;
+        text-align: center
+    }
+    .button-box {   
+        margin-left: 200px; 
+        text-align: center;
+    }
+    .bottom-box p {
+        margin-left: 200px; 
+    }
+}
+
+
 @media only screen and (max-width:1000px) {
      .logo {
         height: 30%;
@@ -166,101 +268,7 @@ button:hover {
     }
 }
 
-/* Tablet Styles 768x800 */
-/* Navigation  */
-@media only screen and (max-width: 768px) {
-    .first-background {
-        background-position:left;
-     }
-    .logo-container {
-        display: none;
-    }
-    .nav-links {
-        display: none;
-    }
 
-    /* leading section */
-    .outer-box {
-        position: absolute;
-        left: 67px;
-        top:372px;
-        align-items: center;
-    }
-    .first-background {
-        width: 768px;
-        height: 800px;
-        background-position: center center;
-    }
 
-    .heading-box {
-        margin-left: 200px;
-        align-items: center;
-        text-align: center; 
-    }
-    .p-box {
-        margin-left: 200px;
-        text-align: center
-    }
-    .button-box {   
-        margin-left: 200px; 
-        text-align: center;
-    }
-    .bottom-box p {
-        margin-left: 200px; 
-    }
-}
-
-@media only screen and (max-width:480px) {
-
-    .first-background {
-        background-position: center center;
-    }
-    .logo-container {
-        display: block;
-        justify-content: center;
-        margin-left: 100px;
-    }
-    .outer-box {
-        width: 357px;
-        height: 436px;
-        position: absolute;
-        left: 9px;
-        top: 327px;
-        align-content: center;
-        justify-content: center;
-        margin-left: 85px;
-    } 
-
-    .top-box {
-        align-items: center;
-    }
-
-    .heading-box h2 {
-       text-align: center;
-       margin-bottom: 5px;
-    }
-    
-    .p-box p {
-        margin-top: 5px;
-        width: 279px;
-        height: 40px;
-       text-align:center;
-    } 
-    .button-box button {
-        width:162px;
-        height: 44px;
-        margin-top: 5px;
-    }
-   
-    .bottom-box {
-        margin-top: 25px;
-        align-items: center;
-    }
-    .bottom-box p {
-        font-size: 16px;
-        font-weight: normal;
-        text-align: center;
-    }
-}
 
   
