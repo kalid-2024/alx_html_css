@@ -3,7 +3,7 @@
 .first-background {
     background-image: url(Images/headphones_hero_1.jpg);
     background-size: cover;
-    width: 1350px;
+    width: 1400px;
     height: 800px;
     color: white;
 }  
@@ -81,7 +81,7 @@ nav .logo-container {
     margin-bottom: 15px;
 }
 
-.button-box button {
+ button {
     margin-top:15px;
     font-size: 'Source Sans Pro', sans-serif;
     font-size:14px;
@@ -187,7 +187,7 @@ button:hover {
     background-size: cover;
     text-align: center;
     height: 650px;
-    width:1070px;
+    width:1200px;
     color:#fff;
   }
 
@@ -258,11 +258,56 @@ p {
 margin: 5px auto;
 }
   
+/* Contact Us Section */
 
+.contact {
+    width:1000px ;
+    height:650 ;
+    background-color:#fff;
+    padding:5% 10%;
+}
 
+.contact_us form  {
+    width:335px;
+    height: 373px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding:5px;
+    text-align:start;
+    
+}
 
+form input,
+.contact_us h1 {
+color: #000000;
+}
 
+.contact_us h1 {
+    font-size: 32px;
+    font-weight:600;
+    text-align: center;
+    margin:50px 0;
+  }
 
+  form  {
+    color:#000000;
+  }
+form input {
+padding:3px 5px;
+border: none;
+border-bottom: solid 1px rgb(151,151,151,22%)
+}
+
+form button{
+align-self: center;
+margin:60px 0;
+}
+
+label {
+    font-weight:600;
+    font-size:14px;
+}
 
 
 
@@ -302,7 +347,7 @@ margin: 5px auto;
 /* Responsive Design for the second webpage */
 /* for mobile of width 480px */
 
-@media only screen and (max-width:480px) {
+/* @media only screen and (max-width:480px) {
     .container-secondpage {
         flex-wrap: wrap;
     }
@@ -320,55 +365,7 @@ margin: 5px auto;
 
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ */
 
 
 
