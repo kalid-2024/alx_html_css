@@ -1,36 +1,46 @@
-/*  First Webpage - Header and First Section */
+/*   Homepage - Header and First Section */
 
-.first-background {
-    background-image: url(Images/headphones_hero_1.jpg);
-    background-size: cover;
-    width: 1400px;
-    height: 800px;
-    color: white;
-}  
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 
 body {
     font-family: "Source Sans Pro" , sans-serif;
+    width: 100%; 
+    margin: 0;
+    padding: 0;
 }
+
+.first-background {
+    background-image: url(Images/headphones_hero_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+}  
 
 header {
     font-size: 12px;
     font-weight: bold;
     width: 100%;
+    
 }
 
-nav .header-container {
+ .header-container {
     display: flex;
     justify-content: space-around;
 }
-
-nav .logo-container {
-    margin-left:10%;
-    margin-top: 25px;
-    margin-right: auto;
+.hamburger-menu , .menu-toggle{
+    display: none ;
 }
 
-.logo-container img {
-    height: 50%;
+header img {
+    height: 40px;
+}
+
+.logo-container {
+    margin: 25px auto ;
 }
 
  .nav-links {
@@ -43,21 +53,18 @@ nav .logo-container {
 
 .nav-links a {
     color: white;
-    margin:7px;
-    padding:5px;
+    padding:0 20px;
     text-decoration: none;
     
 }
 
-
 .outer-box {
     display:flex;
     flex-direction:column;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
-    position: absolute;
-    left: 382px;
-    top: 372px
+    padding: 50px 0;
+    margin: 100px auto;
 }
 
 .top-box {
@@ -65,28 +72,28 @@ nav .logo-container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .heading-box h2 {
     margin-top: 2px;
     margin-bottom: 2px;
-    font-size: 32px;
+    font-size: 2em;
     font-weight: bold;
 }
 
 .p-box p {
     margin-top:1px;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: bold;
     margin-bottom: 15px;
 }
 
-.button-box button {
+ button {
     margin-top:15px;
     font-size: 'Source Sans Pro', sans-serif;
     font-size:14px;
-    font-weight: bold;
+    font-weight: 500;
     background-color:#FF6565 ;
     width:162px;
     height:44px ;
@@ -99,12 +106,11 @@ nav .logo-container {
 
 .bottom-box {
     margin-top: 25px;
-    width:637px;
-    height:104px;
+    width:63%;
 }
 .bottom-box p {
-    font-size: 16px;
-    font-weight: normal;
+    font-size: 1em;
+    font-weight: 500;
     text-align: center;
 }
 
@@ -115,164 +121,3 @@ a:hover {
 button:hover {
     opacity: 0.9;
 }
-
-button:focus,
-input:focus,
-textarea:focus {
-  outline: 0;
-}
-
-@media only screen and (max-width:480px) {
-
-    .first-background {
-        background-position: center center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .logo {
-        display: block;
-        justify-content: center;
-        margin-left: 50%;
-    }
-    .outer-box {
-        width: 357px;
-        height: 436px;
-        position: absolute;
-        left: 9px;
-        top: 327px;
-        align-content: center;
-        justify-content: center;
-        margin-left: 40px;  
-        margin-top: 30px;
-    } 
-
-    .top-box {
-        align-items: center;
-        margin-top: 20px;
-        margin-bottom: 50px;
-    }
-
-    .heading-box h2 {
-       text-align: center;
-       margin-bottom: 5px;
-    }
-    
-    .p-box p {
-        margin-top: 5px;
-        width: 279px;
-        height: 40px;
-       text-align:center;
-    } 
-    .button-box button {
-        width:162px;
-        height: 44px;
-        margin-top: 5px;
-    }
-   .bottom-box p {
-    margin-right: 60px;
-   }
-    
-}
-
-
-/* Tablet Styles 768x800 */
-/* Navigation  */
-@media only screen and (max-width: 768px) {
-    .first-background {
-        background-position:left;
-     }
-    .logo-container {
-        display: none;
-    }
-    .nav-links {
-        display: none;
-    }
-
-    /* leading section */
-    .outer-box {
-        position: absolute;
-        left: 67px;
-        top:372px;
-        align-items: center;
-    }
-    .first-background {
-        width: 768px;
-        height: 800px;
-        background-position: center center;
-    }
-
-    .heading-box {
-        margin-left: 200px;
-        align-items: center;
-        text-align: center; 
-    }
-    .p-box {
-        margin-left: 200px;
-        text-align: center
-    }
-    .button-box {   
-        margin-left: 200px; 
-        text-align: center;
-    }
-    .bottom-box p {
-        margin-left: 200px; 
-    }
-}
-
-
-@media only screen and (max-width:1000px) {
-     .logo {
-        height: 30%;
-        margin-left: 40px;
-     }
-    .nav-links  {
-        justify-content: center;
-        /* padding-right: 20px;
-        margin-right: 100px; */
-    }
-    .outer-box {
-        display: flex;
-        flex-direction: column;
-        align-items:center;
-        margin-right:200px;
-        padding-right:300px;
-    }
-    .heading-box {
-        margin-right: 200px;
-        align-items: center;
-        text-align: center; 
-    }
-    .p-box {
-        margin-right: 200px;
-        text-align: center
-    }
-    .button-box {
-        margin-right: 200px; 
-        text-align: center;
-    }
-    .bottom-box p {
-        margin-right: 200px; 
-    }
-    .top-box {
-        margin-right: 50%;
-        align-items: center;
-        width:637px;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
-    .bottom-box {
-        text-align: center;
-        margin-right: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-
-
-
-  
