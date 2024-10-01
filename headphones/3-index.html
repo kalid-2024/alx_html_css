@@ -6,14 +6,22 @@
     <title>HeadPhones Website</title>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="reset.css" rel="stylesheet">
-    <link href="3-styles.css" rel="stylesheet">
+    <link href="4-styles.css" rel="stylesheet">
+    <link href="responsive_design_480px_720px_1000px.css" rel="stylesheet">
 </head>
 <body>
     <div class="first-background">
         <header>
             <nav>
                 <div class="header-container">
-                    
+                        <!-- Hidden checkbox input for toggling the menu -->
+                <input type="checkbox" id="menuToggle" class="menu-toggle">
+                <!-- Hamburger icon label, linked to the checkbox -->
+                <label for="menuToggle" class="hamburger-menu"><img src=Images/menu.svg></label>
+
+                <!-- <input type="checkbox" id="menuClose" class="menu-Close"> -->
+                <label for="menuToggle" class="close-menu"> <img src=Images/close_menu_icon.png></label>
+
                     <div class="logo-container" >
                         <a href="#home">
                             <img class="logo" src="Images/logo_headphones.png" alt="Logo"> 
@@ -158,6 +166,3 @@
             </div>
         </section>
     </main>
-</body>
-</html>
-        
