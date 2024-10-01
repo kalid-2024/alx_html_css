@@ -1,0 +1,108 @@
+/* Results web page section  */
+
+.third-section {
+    background-image: url(Images/headphones_hero_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    min-height: 100vh;
+    color:#fff;
+}
+
+.third-section {
+padding: 5% 10%;
+text-align: center;
+gap: 50px;
+}
+
+.total_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 126px;
+    padding-bottom: 50px;
+}
+
+  .higher_box {
+    margin: 0 20%;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+ .higher_box h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+
+.higher_box p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.lower_box p{
+    font-size: 14px;
+}
+
+.lower_box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    width: 85%;
+    align-items: center;
+}
+
+/* this part were the image is imported is commented out and replaced by the code below! */
+
+/* .lower_box .pentagone  {
+    height: 190px;
+    width: 190px;
+    background-image:url("Images/pentagone.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    align-content: center;
+} */
+
+.lower_box h1 {
+    font-weight: bold;
+    font-size: 2.5em;
+}
+    
+.lower_box h1,
+p {
+margin: 5px auto;
+}
+
+/* here is the code for the pentagone polygon using a Code only (no images) */
+
+.pentagone {
+    position:relative;
+    width:190px;
+    height:190px;
+    background:#ff6565;
+    clip-path:polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    color:white;
+}
+
+.pentagone-content {
+    text-align: center;
+}
+
+.pentagone h1 {
+    margin:0;
+    font-size: 2.5em;
+    font-weight:bold;
+}
+.pentagone p {
+    margin:0;
+    font-size: 0.9em;
+}
