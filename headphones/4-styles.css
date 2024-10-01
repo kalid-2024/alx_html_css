@@ -1,10 +1,14 @@
 /*   Homepage - Header and First Section */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Source Sans Pro" , sans-serif;
     width: 100%; 
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 .first-background {
@@ -12,7 +16,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
+    min-height: 100vh;
     color: white;
 }  
 
@@ -26,6 +30,9 @@ header {
  .header-container {
     display: flex;
     justify-content: space-around;
+}
+.hamburger-menu , .menu-toggle{
+    display: none ;
 }
 
 header img {
@@ -57,10 +64,10 @@ header img {
 .outer-box {
     display:flex;
     flex-direction:column;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
-    padding: 50px;
-    margin: 200px auto;
+    padding: 50px 0;
+    margin: 100px auto;
 }
 
 .top-box {
@@ -68,19 +75,19 @@ header img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .heading-box h2 {
     margin-top: 2px;
     margin-bottom: 2px;
-    font-size: 32px;
+    font-size: 2em;
     font-weight: bold;
 }
 
 .p-box p {
     margin-top:1px;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: bold;
     margin-bottom: 15px;
 }
@@ -89,7 +96,7 @@ header img {
     margin-top:15px;
     font-size: 'Source Sans Pro', sans-serif;
     font-size:14px;
-    font-weight: bold;
+    font-weight: 500;
     background-color:#FF6565 ;
     width:162px;
     height:44px ;
@@ -102,12 +109,11 @@ header img {
 
 .bottom-box {
     margin-top: 25px;
-    width:637px;
-    height:104px;
+    width:63%;
 }
 .bottom-box p {
-    font-size: 16px;
-    font-weight: normal;
+    font-size: 1em;
+    font-weight: 500;
     text-align: center;
 }
 
@@ -123,7 +129,7 @@ button:hover {
 /* What We Do Page section styling  */
 
 .container-secondpage {
-    height:600px;
+    min-height: 100vh;
     text-align: center;
     padding: 5% 10%;
     gap: 50px;
@@ -154,8 +160,7 @@ button:hover {
 
 .p1-container {
     font-size: 16px;
-    width:637px;
-    height:184px;
+    width:100%;
     text-align: center;
 }
 
@@ -187,7 +192,7 @@ button:hover {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    height: 650px;
+    min-height: 100vh;
     color:#fff;
   }
 
@@ -261,7 +266,7 @@ margin: 5px auto;
 /* Contact Us Section */
 
 .contact {
-    height:650 ;
+    min-height: 100vh;
     background-color:#fff;
     padding:5% 10%;
 }
@@ -300,10 +305,11 @@ border-bottom: solid 1px rgb(151,151,151,22%)
 
 form button{
 align-self: center;
-margin:60px 0;
+margin:50px 0;
 }
 
 label {
+    padding-top:30px; 
     font-weight:600;
     font-size:14px;
 }
@@ -311,10 +317,11 @@ label {
 /* Footer Section */
 
 footer{
+    /* min-height: 100vh; */
     background-color: #071629;
     text-align: center;
     padding: 5% 5%;
-    height: 150px;
+    height: 300px;
 }
 
 .footer-container {
